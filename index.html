@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Главная</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="icon.ico">
+    </head>
+    <style>
+        @media only screen and (max-width: 480px) {
+            .mainBlock {
+                margin: 6px 20px;
+                padding: 8px;
+            }
+            .regText {
+                font-size: 16px;
+                max-width: 100%;
+            }
+            .defText {
+                font-size: 14px;
+                max-width: 100%;
+            }
+            .roundPic {
+                max-width: 100%;
+                width: 100%;
+                height: auto;
+            }
+        }
+        @font-face{
+            font-family: "animeAce";
+            src: url(animeAce.ttf);
+        }
+        @font-face {
+            font-family: "fontRegular";
+            src: url(fontRegular.ttf);
+        }
+        .regText{
+            font-size: 25px;
+            font-family: "fontRegular";
+            color: #290404;
+            max-width: 75%;
+        }
+
+        .defText{
+            font-size: 16px;
+            color: #290404;
+            font-family: "animeAce";
+        }
+
+        .mainBlock{
+            padding: 15px;
+            margin: 8px 30px;
+            border-radius: 40px;
+            background-color: #F6F7F8;
+        }
+        .roundPic{
+            max-width: 400px;
+            max-height: 400px;
+            min-width: 100px;
+            min-height: 100px;
+            width: max-content;
+            height: max-content;
+            margin: 8px;
+            border-radius: 10%;
+            overflow: hidden;
+        }
+        .characterPic{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+        /*Фоновое изображение*/
+        .backgroundPic{
+            background-color: #D4F0FA;
+        }
+    </style>
+    <body class="backgroundPic">
+        <div class="mainBlock">
+            <div class="mainPageBlocks defText" style="text-align: center;">
+                <h1><b>Главная страница</b></h1>
+            </div>
+            <div class="mainPageBlocks defText">
+                <br>
+                <h4><b>Краткое описание</b></h4>
+            </div>
+            <div style="display: flex; flex-direction: row;">
+                <div class="regText">
+                    Баскетбол Куроко — японская манга о баскетболе, автором является Тадатоси Фудзимаки. История посвящена баскетбольной команде Сейрин, которая пытается стать победителем баскетбольного турнира. На их пути стояли бывшые ученики Тейко с самыми выдающимися талантами. Победить такую команду не удавалось никому,
+                </div>
+                <div class="roundPic">
+                    <img class="characterPic" src="main1.jpg">
+                </div>
+            </div>
+            <div class="mainPageBlocks defText">
+                <br>
+                <h4><b>Сюжет</b></h4>
+            </div>
+            <div style="display: flex; flex-direction: row;">
+                <div class="regText">
+                    Баскетбольная команда Тейко завоевала признание благодаря победе в "Зимнем кубке". Основной состав команды стал известен как «Поколение Чудес». После окончания средней школы эти пять игроков разошлись по разным школам. Лишь немногие знали, что помимо этих пяти, был ещё один, «Призрачный шестой игрок». Этот загадочный юноша поступил в Сейрин, с никому не известной, но многообещающей командой.
+                </div>
+                <div class="roundPic">
+                    <img class="characterPic" src="main2.jpeg">
+                </div>
+            </div>
+            <div class="mainPageBlocks defText">
+                <br>
+                <h4><b>Отзывы</b></h4>
+            </div>
+            <div style="display: flex; flex-direction: row;">
+                <div class="regText">
+                    Баскетбол Куроко собрал в Японии множество положительных отзывов, часто занимая первые места в различных чартах, и имел способность оставаться там по нескольку недель. Особую популярность «Баскетболу» привлек выпуск аниме-версии, после чего также стремительно возрос и объем продаж томов Манги: с 300 000 копий до 500 000.
+                </div>
+                <div class="roundPic">
+                    <img class="characterPic" src="main3.jpg">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
